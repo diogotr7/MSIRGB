@@ -298,11 +298,13 @@ namespace logic {
             L"7B40",
             L"7A94",
             L"7B09",
-            L"7B90"
+            L"7B90",
+			L"7B86"
         };
 
         static const std::list<std::wstring> reversed_mbs = { // colours are reversed on these.
-            L"7B90"
+            L"7B90",
+			L"7B86"
         };
 
         auto found = std::find_if(supported_mbs.begin(),
